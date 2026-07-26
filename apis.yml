@@ -1,8 +1,31 @@
 aid: espressive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/espressive.png
 name: Espressive
-description: Espressive is a company surfaced as a portfolio company of general-catalyst, insight-partners,
-  wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: >-
+  Espressive is an enterprise conversational-AI company whose flagship product,
+  Barista, is a GenAI-based virtual support agent that automates the resolution
+  of employee questions, issues, and requests across IT service management (ITSM),
+  HR, and other internal help desks. Barista connects natural-language employee
+  requests to automation by integrating with any REST-API-enabled third-party
+  system (ServiceNow, Jira, Slack, Teams, Okta, Workday, Microsoft 365) via its
+  Integration Designer and Barista Integration Marketplace, and reports employee
+  adoption rates of 80-85% with 50-70% reductions in help-desk call volume.
+  Espressive was acquired by Resolve (resolve.io) in September 2025 and folded into
+  Resolve's agentic automation and orchestration platform; the standalone
+  www.espressive.com surface now redirects to resolve.io. Espressive exposes no
+  public developer API of its own -- Barista is a consumer of customer REST APIs,
+  and product/developer documentation sits behind the Espressive support portal.
 url: https://raw.githubusercontent.com/api-evangelist/espressive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,24 @@ x-backed-by:
 - insight-partners
 - wing-venture-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-public-api
+x-status: acquired-absorbed
+x-acquired-by: resolve
+x-acquired-date: '2025-09-10'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Conversational AI
+- Virtual Agent
+- IT Service Management
+- ITSM
+- Employee Experience
+- Enterprise AI
+- LLM
+- Automation
+- Help Desk
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +61,14 @@ maintainers:
 common:
 - type: Website
   url: http://www.espressive.com/
+- type: Product
+  url: https://resolve.io/it-automation-platform
+- type: PrivacyPolicy
+  url: https://go.resolve.io/hubfs/Documents/Espressive/Espressive-Privacy-Policy.pdf
+- type: DomainSecurity
+  url: security/espressive-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
