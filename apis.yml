@@ -82,8 +82,6 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Plans
-  url: plans/espressive-plans-pricing.yml
 - url: https://resolve.io/blog
   type: Blog
 - type: Website
