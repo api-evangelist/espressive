@@ -64,6 +64,48 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Espressive is a company surfaced as a portfolio company of general-catalyst, insight-partners, wing-venture-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: general-catalyst, insight-partners, wing-venture-capital — http://www.espressive.com/
+**Status:** acquired-absorbed
+
+Espressive is an enterprise conversational-AI company whose flagship product, Barista, is a GenAI-based virtual support agent that automates the resolution of employee questions, issues, and requests across IT service management (ITSM), HR, and other internal help desks. Barista connects natural-language employee requests to automation by integrating with any REST-API-enabled third-party system (ServiceNow, Jira, Slack, Teams, Okta, Workday, Microsoft 365) via its Integration Designer and Barista Integration Marketplace, and reports employee adoption rates of 80-85% with 50-70% reductions in help-desk call volume. Espressive was acquired by Resolve (resolve.io) in September 2025 and folded into Resolve's agentic automation and orchestration platform; the standalone www.espressive.com surface now redirects to resolve.io. Espressive exposes no public developer API of its own -- Barista is a consumer of customer REST APIs, and product/developer documentation sits behind the Espressive support portal.
+
+**Areas:** Company · Conversational AI · Virtual Agents · ITSM · Employee Experience · Enterprise AI · LLM · Automation · Help Desk
+
+## Espressive on APIs.io (historical record)
+
+Everything profiled for Espressive is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/espressive/](https://apis.io/providers/espressive/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Espressive Domain Security](https://apis.io/security/espressive/espressive-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.espressive.com/)
+- [Blog](https://resolve.io/blog)
+- [Privacy policy](https://go.resolve.io/hubfs/Documents/Espressive/Espressive-Privacy-Policy.pdf)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Espressive: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/espressive/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
